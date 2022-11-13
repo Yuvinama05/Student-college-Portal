@@ -17,7 +17,7 @@ body {
 .container {
   background-color: #31e1f7;
   width: 30vw;
-  height: 40vh;
+  height: 50vh;
   margin: 25vh auto;
   padding: 10px;
   border-radius: 10px;
@@ -64,8 +64,22 @@ body {
 .click {
   text-decoration: none;
   color: black;
-  font-weight: bolder;
+  font-weight: bold;
 }
 p {
   font-weight: 545;
+}
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 112px;
+}
+.first {
+  padding: 2px 5px;
+  border: 1px solid rgb(248, 7, 7);
+  border-radius: 10px;
+}
+.first a {
+  text-decoration: none;
+  color: black;
 }
