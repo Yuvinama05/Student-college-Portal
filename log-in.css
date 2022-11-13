@@ -61,3 +61,11 @@ body {
   border-radius: 10px;
   border: #31e1f7;
 }
+.click {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+p {
+  font-weight: 545;
+}
