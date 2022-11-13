@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #faf7f0;
+}
+
+.container {
+  background-color: #31e1f7;
+  width: 30vw;
+  height: 40vh;
+  margin: 25vh auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.log-in {
+  font-family: "Sono", sans-serif;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  border-radius: 20px;
+}
+.label {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.input {
+  padding: 5px 5px;
+  border-radius: 5px;
+  border: none;
+  width: 15vw;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.lower {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  margin: 10px;
+  padding: 4px 10px;
+
+  border-radius: 10px;
+  border: #31e1f7;
+}
