@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-color: #faf7f0;
@@ -11,7 +12,7 @@ body {
 .container {
   background-color: #31e1f7;
   width: 40vw;
-  height: 40vh;
+  height: 50vh;
   margin: 25vh auto;
   padding: 10px;
   border-radius: 10px;
@@ -30,13 +31,51 @@ body {
   margin: 5px 0;
 }
 .input {
-  padding: 5px 5px;
-  border-radius: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
   border: none;
+  width: 25vw;
+  margin: 10px 0;
+}
+.input:hover {
+  background-color: #f7f7f7;
+  color: black;
 }
 
+.cont {
+  display: flex;
+  flex-direction: column;
+}
 .form {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 10px 0;
+}
+.lower {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  margin: 10px;
+  padding: 4px 10px;
+
+  border-radius: 10px;
+  border: #31e1f7;
+}
+.btn:hover {
+  background-color: red;
+  border: none;
+  color: white;
+  /* transition: 0.5s; */
+}
+.click {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+p {
+  font-weight: 545;
 }
