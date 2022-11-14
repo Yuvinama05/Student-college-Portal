@@ -6,24 +6,26 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #faf7f0;
+  background-color: #b1b2ff;
 }
 
 .container {
-  background-color: #31e1f7;
+  background-color: #d2daff;
   width: 40vw;
   height: 50vh;
   margin: 25vh auto;
   padding: 10px;
   border-radius: 10px;
 }
-.log-in {
+.sign-up {
   font-family: "Sono", sans-serif;
-  background-color: whitesmoke;
+  background-color: #a66cff;
   display: flex;
   justify-content: center;
   padding: 5px 0;
   border-radius: 20px;
+  font-weight: bolder;
+  color: white;
 }
 .label {
   display: flex;
@@ -36,9 +38,10 @@ body {
   border: none;
   width: 25vw;
   margin: 10px 0;
+  outline: none;
 }
 .input:hover {
-  background-color: #f7f7f7;
+  background-color: #eef1ff;
   color: black;
 }
 
@@ -59,16 +62,16 @@ body {
   align-items: center;
 }
 .btn {
-  margin: 10px;
   padding: 4px 10px;
-
+  margin-bottom: 10px;
   border-radius: 10px;
   border: #31e1f7;
 }
 .btn:hover {
-  background-color: red;
+  background-color: #e8f9fd;
   border: none;
-  color: white;
+  color: black;
+  font-weight: bolder;
   /* transition: 0.5s; */
 }
 .click {
@@ -78,4 +81,18 @@ body {
 }
 p {
   font-weight: 545;
+}
+
+@keyframes pop-up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 10;
+  }
+}
+
+.container {
+  animation: pop-up 1s ease-in 1ms 1 backwards;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
