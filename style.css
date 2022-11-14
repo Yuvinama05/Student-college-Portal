@@ -19,25 +19,14 @@
 
   margin-left: 50px;
 }
-.first {
-  display: flex;
-  align-items: center;
-}
+
 .head a {
   text-decoration: none;
   color: white;
   margin: 0 15px;
   font-weight: bolder;
 }
-.bar1 {
-  background-color: black;
-  width: 20px;
-  padding: 5px 0;
-  margin: 2px 0;
-}
-.bar {
-  margin-left: 20px;
-}
+
 .signup-btn {
   margin-right: 50px;
   padding: 5px 10px;
@@ -47,4 +36,39 @@
 .signup-btn a {
   color: black;
   margin: 0;
+}
+.signup-btn :hover {
+  background-color: #e8f9fd;
+}
+main {
+  height: calc(100vh - 8vh - 8vh);
+}
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #a66cff;
+  height: 8vh;
+  color: white;
+  /* font-weight: bold; */
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+main {
+  /* overflow: hidden; */
+  overflow: scroll;
+  width: 100vw;
+}
+.box {
+  width: 90vw;
+  background-color: #b1b2ff;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  height: 50vh;
+  margin: 10px 80px;
+  /* margin-left: 200px; */
 }
