@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Sono", sans-serif;
 }
 body {
   background-color: #b1b2ff;
@@ -93,6 +95,18 @@ p {
 }
 
 .container {
-  animation: pop-up 1s ease-in 1ms 1 backwards;
+  animation: pop-up 0.5s ease-in 1ms 1 backwards;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
+@media all and (max-width: 800px) {
+  .container {
+    width: 89vw;
+    height: 45vh;
+  }
+}
+/* @media all and (max-width: 800px) {
+  .container {
+    width: 80vw;
+    height: 55vh;
+  }
+} */
