@@ -47,13 +47,11 @@ body {
     /* transform: rotate(0deg); */
     opacity: 0;
   }
-
   to {
-    /* transform: rotate(360deg); */
+    /* transform: rotate(-360deg); */
     opacity: 1;
   }
 }
-
 .label {
   display: flex;
   justify-content: center;
@@ -69,6 +67,9 @@ body {
 .click:hover {
   color: #a66cff;
   font-weight: bolder;
+}
+.btn a {
+  text-decoration: none;
 }
 
 .form {
@@ -88,9 +89,6 @@ body {
 
   border-radius: 10px;
   border: #31e1f7;
-}
-.btn a {
-  text-decoration: none;
 }
 .click {
   text-decoration: none;

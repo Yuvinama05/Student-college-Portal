@@ -8,20 +8,39 @@
   font-family: "Sono", sans-serif;
 }
 body {
-  background-color: #b1b2ff;
+  /* background-color: #b1b2ff; */
+  background-color: #f9c5d5;
+  /* background-color: #f0d9e7; */
+  /* background-color: white; */
+  /* background-image: url(/poornima.png);
+  background-repeat: repeat-x; */
 }
-
+.logo1 {
+  width: 6vw;
+  margin: 2px 10px;
+}
+.logo {
+  display: flex;
+  justify-content: right;
+  margin: 8px 8px;
+}
 .container {
-  background-color: #d2daff;
+  background-color: #f4e4e8;
+  /* background-color: white; */
+  /* border: 0.1px solid black; */
   width: 40vw;
   height: 50vh;
-  margin: 25vh auto;
+  margin: 15vh auto;
   padding: 10px;
   border-radius: 10px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.container:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .sign-up {
   font-family: "Sono", sans-serif;
-  background-color: #a66cff;
+  background-color: #f2789f;
   display: flex;
   justify-content: center;
   padding: 5px 0;
@@ -67,7 +86,7 @@ body {
   padding: 4px 10px;
   margin-bottom: 10px;
   border-radius: 10px;
-  border: #31e1f7;
+  border: #85f1ff;
 }
 .btn:hover {
   background-color: #e8f9fd;
@@ -76,10 +95,21 @@ body {
   font-weight: bolder;
   /* transition: 0.5s; */
 }
+.su {
+  text-decoration: none;
+  color: black;
+}
+.su:hover {
+  /* font-weight: bolder; */
+}
 .click {
   text-decoration: none;
   color: black;
   font-weight: bold;
+}
+.click:hover {
+  color: #f2789f;
+  font-weight: bolder;
 }
 p {
   font-weight: 545;
@@ -95,13 +125,32 @@ p {
 }
 
 .container {
-  animation: pop-up 0.5s ease-in 1ms 1 backwards;
+  animation: pop-up 1s ease-in 1ms 1 backwards;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 900px) {
   .container {
     width: 89vw;
-    height: 45vh;
+    height: 52vh;
+  }
+  /* .cont {
+    width: 80vw;
+    height: 80vh;
+  } */
+  .input {
+    width: 80vw;
+    /* height: 50vh; */
+  }
+  .lower {
+    width: 81vw;
+    margin-left: 20px;
+  }
+
+  .para a {
+    margin-left: 135px;
+  }
+  .para {
+    margin-left: 20px;
   }
 }
 /* @media all and (max-width: 800px) {

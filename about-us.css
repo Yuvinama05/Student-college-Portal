@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+}
+head {
+  background-color: #a66cff;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* position: sticky; */
+  /* position: fixed; */
+}
+
+header {
+  position: fixed;
+  width: 100vw;
+  /* position: relative;
+    position: sticky; */
+}
+.lists {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 50px;
+}
+
+.head a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-weight: bolder;
+}
+
+.signup-btn {
+  margin-right: 50px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+}
+.signup-btn a {
+  color: black;
+  margin: 0;
+}
+.signup-btn :hover {
+  background-color: #e8f9fd;
+}
+
+/* .cont {
+  height: 50vh;
+}
+footer {
+  height: 20vh;
+} */
