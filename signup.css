@@ -8,10 +8,9 @@
   font-family: "Sono", sans-serif;
 }
 body {
-  /* background-color: #b1b2ff; */
-  background-color: #f9c5d5;
-  /* background-color: #f0d9e7; */
-  /* background-color: white; */
+  background-color: #f9dbe4;
+
+  /* background-color: rgb(208, 144, 144); */
   /* background-image: url(/poornima.png);
   background-repeat: repeat-x; */
 }
@@ -25,7 +24,7 @@ body {
   margin: 8px 8px;
 }
 .container {
-  background-color: #f4e4e8;
+  background-color: #f5c5d1;
   /* background-color: white; */
   /* border: 0.1px solid black; */
   width: 40vw;
@@ -108,7 +107,7 @@ body {
   font-weight: bold;
 }
 .click:hover {
-  color: #f2789f;
+  color: #f52f6e;
   font-weight: bolder;
 }
 p {
