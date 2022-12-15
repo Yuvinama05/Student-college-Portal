@@ -162,3 +162,14 @@
 }
 @media screen {
 } */
+.fotter {
+  margin-top: 300px;
+  color: white;
+  font-weight: bolder;
+}
+span {
+  color: rgb(238, 153, 167);
+  margin-left: 58px;
+  font-weight: bolder;
+  font-size: larger;
+}
