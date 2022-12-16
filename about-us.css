@@ -1,57 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
 * {
   margin: 0;
   padding: 0;
+  /* overflow: hidden; */
+  /* font-family: "Sono", sans-serif; */
 }
-body {
-  height: 100%;
-}
-head {
-  background-color: #a66cff;
+.nav {
+  /* background-color: black; */
   height: 8vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
-  /* position: sticky; */
-  /* position: fixed; */
+  background-color: #f9c5d5;
+  /* box-shadow: 50px 50px 50px 60px rgb(11, 11, 11); */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, */
+  /* rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+}
+.nav h1 {
+  color: black;
+  /* margin-left: 665px; */
+}
+.signup-btn {
+  padding: 5px 10px;
+  margin: 15px 25px;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.signup-btn:hover {
+  background-color: #fee3ec;
+  /* color: white; */
+}
+span {
+  color: rgb(238, 153, 167);
+  margin-left: 58px;
+  font-weight: bolder;
+  font-size: larger;
 }
 
-header {
-  position: fixed;
-  width: 100vw;
-  /* position: relative;
-    position: sticky; */
-}
-.lists {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin-left: 50px;
-}
-
-.head a {
+.signup-btn a {
   text-decoration: none;
   color: black;
-  margin: 0 15px;
   font-weight: bolder;
 }
+.main {
+  display: flex;
+  /* background-color: white; */
+}
+.side-nav {
+  width: 17vw;
+  background-color: black;
+  height: 91.7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  /* position: fixed; */
+  position: sticky;
+  /* margin-top: 30px; */
+}
+.logo {
+  width: 255px;
+  margin-top: 10px;
+}
+.name a {
+  color: rgb(220, 217, 217);
+  text-decoration: none;
+  font-size: larger;
+  /* margin-left: 50px; */
+}
+.name {
+  margin: 25px 15px;
+  /* width: 17vw; */
+}
+.name a:hover {
+  color: white;
+  font-weight: bolder;
+  /* font-size: larger; */
+}
+.main-cont {
+  background-color: #fee3ec;
+  width: 86vw;
+}
+.content {
+  height: 80vh;
+  margin: 20px 60px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.content p {
+  width: 50vw;
+  /* font-weight: bold; */
+  font-size: large;
+  font-family: "Sono", sans-serif;
+  text-align: justify;
+}
 
-.signup-btn {
-  margin-right: 50px;
-  padding: 5px 10px;
-  border-radius: 10px;
-  border: none;
+.fotter {
+  margin-top: 300px;
+  color: white;
+  font-weight: bolder;
 }
-.signup-btn a {
-  color: black;
-  margin: 0;
-}
-.signup-btn :hover {
-  background-color: #e8f9fd;
-}
-
-/* .cont {
-  height: 50vh;
-}
-footer {
-  height: 20vh;
-} */
